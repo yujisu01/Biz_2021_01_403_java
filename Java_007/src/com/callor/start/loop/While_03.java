@@ -7,8 +7,10 @@ public class While_03 {
 		int index = 0;
 		while(true) {
 			if(index % 3 > 0 ) {
+				//매우 불편한코드
 				System.out.println("3의 배수가 아님");
 			}
+			//정상적인 코드
 			if(++index % 3 == 0) {
 				System.out.println(index + "는 3의 배수");
 		} else {
