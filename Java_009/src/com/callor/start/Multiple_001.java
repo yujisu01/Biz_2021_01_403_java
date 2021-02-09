@@ -31,12 +31,14 @@ public class Multiple_001 {
 			if(bYes3M) { 	// 3의 배수를 먼저 검사해보고, 맞으면
 							// 연산을 수행한 후, 
 				if(bYes9M) {	// 다시 9의 배수를 검사하는 방법
-					intSum += num1;
 					System.out.println(num1);
+					intSum += num1;
+					
 				}
 			}
-			System.out.println(intSum);
+			
 		}
+		System.out.println("3과 9의 배수합:" + intSum);
 	}
 
 }
