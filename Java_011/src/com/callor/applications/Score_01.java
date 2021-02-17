@@ -3,6 +3,7 @@ package com.callor.applications;
 import java.util.Scanner;
 
 public class Score_01 {
+	// 내가만든거
 
 	public static void main(String[] args) {
 
