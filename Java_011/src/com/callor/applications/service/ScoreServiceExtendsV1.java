@@ -27,6 +27,7 @@ public class ScoreServiceExtendsV1 extends ScoreServiceV4{
 	 * 
 	 */
 	public int input(String subject) {				
+	
 		Scanner scan = new Scanner(System.in); 		// 문자를 입력하기 위해 Scanner문을 추가했다
 		
 		int intScore = 0;		// intScore의 점수를 입력하기전에 먼저 초기화를 시켜주는 과정이다.
