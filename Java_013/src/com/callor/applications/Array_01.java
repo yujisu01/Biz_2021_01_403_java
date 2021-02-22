@@ -19,6 +19,7 @@ public class Array_01 {
 		System.out.println("================================");
 		System.out.println("학번\t국어점수\n");
 		System.out.println("--------------------------------");
+		
 		for (int i = 0; i < 5; i++) {
 			System.out.print((i + 1) + "\t");
 			System.out.println(intKor[i]);
