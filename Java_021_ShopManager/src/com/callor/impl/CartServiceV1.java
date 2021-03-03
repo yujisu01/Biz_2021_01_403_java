@@ -7,13 +7,13 @@ import java.util.Scanner;
 import com.callor.shop.CartVO;
 import com.callor.shop.service.CartService;
 
-public class CartControllerV1 implements CartService {
+public class CartServiceV1 implements CartService {
 
 	private List<CartVO> cartList;
 	private Scanner scan;
 	private int intTotal;
 
-	public CartControllerV1() {
+	public CartServiceV1() {
 		cartList = new ArrayList<CartVO>();
 		scan = new Scanner(System.in);
 	}
