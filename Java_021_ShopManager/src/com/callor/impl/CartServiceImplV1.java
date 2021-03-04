@@ -4,23 +4,23 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-import com.callor.shop.CartVO;
+import com.callor.shop.CartVOT;
 import com.callor.shop.service.CartService;
 
-public class CartServiceV1 implements CartService {
+public class CartServiceImplV1 implements CartService {
 
-	private List<CartVO> cartList;
+	private List<CartVOT> cartList;
 	private Scanner scan;
 	private int intTotal;
 
-	public CartServiceV1() {
-		cartList = new ArrayList<CartVO>();
+	public CartServiceImplV1() {
+		cartList = new ArrayList<CartVOT>();
 		scan = new Scanner(System.in);
 	}
 
 	@Override
 	public void inputCart() {
-		CartVO cartvo = new CartVO();
+		CartVOT cartvo = new CartVOT();
 
 		// TODO Auto-generated method stub
 		System.out.println("==============================================");

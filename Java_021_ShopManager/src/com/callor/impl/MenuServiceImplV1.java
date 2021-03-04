@@ -3,11 +3,11 @@ package com.callor.impl;
 import java.util.Scanner;
 import com.callor.shop.service.MenuService;
 
-public class MenuServiceV1 implements MenuService {
+public class MenuServiceImplV1 implements MenuService {
 
 	private Scanner scan;
 
-	public MenuServiceV1() {
+	public MenuServiceImplV1() {
 		scan = new Scanner(System.in);
 	}
 

@@ -1,11 +1,12 @@
 package com.callor.shop;
 
-public class CartVO {
+public class CartVOT {
 	
-	// CartVO vo = new CartVO();
-	// vo.userName = "값"
 	private String userName;
 	private String productName;
+	//private String date;
+	//private String time;
+	
 	private int qty;
 	private int price;
 	private int total;
@@ -22,6 +23,7 @@ public class CartVO {
 	public void setProductName(String productName) {
 		this.productName = productName;
 	}
+	
 	public int getQty() {
 		return qty;
 	}
@@ -42,11 +44,8 @@ public class CartVO {
 	}
 	@Override
 	public String toString() {
-		return "CartVO [userName=" + userName + ", productName=" + productName + ", qty=" + qty + ", price=" + price
-				+ ", total=" + total + "]";
+		return "CartVO [userName=" + userName + ", productName=" + productName + 
+				 ", qty=" + qty + ", price=" + price + ", total=" + total + "]";
 	}
 
-	
-	
-	
 }
