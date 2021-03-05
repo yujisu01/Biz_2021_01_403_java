@@ -10,6 +10,22 @@ public class CartVO {
 	private int price;
 	private int total;
 	
+	// 매개변수가 있는 생성자를 만들게되면
+	// 매개변수가 없는 "기본생성자"를 
+	// 반드시 만들어줘야 한다.
+	public CartVO() {
+		
+	}
+	// 똑같은 생성자(CartVO)인데 매개변수 4개를 받고있다.
+	public CartVO(String userName, String pName, 
+					int qty, int price) {
+		this.userName = userName;
+		this.productName = pName;
+		this.qty = qty;
+		this.price = price;
+		
+	}
+	
 	public String getUserName() {
 		return userName;
 	}
