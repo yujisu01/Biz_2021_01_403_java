@@ -74,6 +74,8 @@ public class FileReader_02 {
 			scoreVO.setHistory(Integer.valueOf(scores[4]));
 		
 			scoreList.add(scoreVO);
+			System.out.println("확인"+scoreList);
+			
 		}
 		// 총점과 평균을 구함
 		for(ScoreVO vo : scoreList) {
@@ -87,6 +89,8 @@ public class FileReader_02 {
 			
 			vo.setTotal(sum);
 			vo.setAvg(avg);
+			
+			//System.out.println(vo);
 		}
 		System.out.println(Values.dLine);
 		System.out.println("국어\t영어\t수학\t음악\t국사\t총점\t평균");
