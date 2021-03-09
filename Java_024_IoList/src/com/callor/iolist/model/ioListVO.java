@@ -2,18 +2,17 @@ package com.callor.iolist.model;
 
 public class ioListVO {
 	
-	private String strDate; 	// 거래일자
+	private String strDate; 	// 거래일자0
 	private String strNo1;
 	private String strNo2;
 	private String strNo3;
-	private String strProduct;		// 상품명
-	private String strClient;		// 거래처명
-	private String strCEO;			// 대표자명
-	
-	private int intDivi;			// 구분	
-	private int intPrice;			// 매입단가
-	private int intSales;			// 판매단가
-	private int intQty;				// 수량
+	private String strProduct;		// 상품명4
+	private String strClient;		// 거래처명5
+	private String strCEO;			// 대표자명6
+	private String strDivi;			// 구분	7
+	private int intPrice;			// 매입단가8
+	private int intSales;			// 판매단가9
+	private int intQty;				// 수량10
 	
 	
 	
@@ -28,7 +27,7 @@ public class ioListVO {
 		this.strProduct = strProduct;
 		this.strClient = strClient;
 		this.strCEO = strCEO;
-		this.intDivi = intDivi;
+		this.strDivi = strDivi;
 		this.intPrice = intPrice;
 		this.intSales = intSales;
 		this.intQty = intQty;
@@ -57,11 +56,11 @@ public class ioListVO {
 	public void setStrCEO(String strCEO) {
 		this.strCEO = strCEO;
 	}
-	public int getIntDivi() {
-		return intDivi;
+	public String getstrDivi() {
+		return strDivi;
 	}
 	public void setStrDivi(String strDivi) {
-		this.intDivi = intDivi;
+		this.strDivi = strDivi;
 	}
 	public int getIntPrice() {
 		return intPrice;
@@ -84,7 +83,7 @@ public class ioListVO {
 	@Override
 	public String toString() {
 		return "ioListEx_01 [strDate=" + strDate + ", strProduct=" + strProduct + ", strClient=" + strClient
-				+ ", strCEO=" + strCEO + ", strDivi=" + intDivi + ", intPrice=" + intPrice + ", intSales=" + intSales
+				+ ", strCEO=" + strCEO + ", strDivi=" + strDivi + ", intPrice=" + intPrice + ", intSales=" + intSales
 				+ ", intQty=" + intQty + "]";
 	}
 	
