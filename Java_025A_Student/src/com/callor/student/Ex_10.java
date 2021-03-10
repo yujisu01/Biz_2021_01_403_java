@@ -17,11 +17,13 @@ public class Ex_10 {
 	 */
 	public static void main(String[] args) {
 		
-		for(int i = 1; i< 10; i++) {
-			int intSum = 0;
-			intSum = i * 7;
-			System.out.println("7x" + i +"=" + intSum);
-			
-		}
-	}
+		   int num = 3;
+		    
+		      System.out.println("구구단");
+		     
+		      for(int i = 1 ; i < 10; i++) {
+		         
+		         System.out.printf("%dx%d=%d\n", num,i,num*i);
+		      }
+		   }
 }
